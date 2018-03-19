@@ -47,6 +47,8 @@ PT-P900W, PT-P950NW
 
 __Tested models:__ `QL-720NW`, `QL-820NWB`
 
+`RJ-3050AI` not working.
+
 (if you have tried this with other models, please update this list and send a pull request)
 
 
