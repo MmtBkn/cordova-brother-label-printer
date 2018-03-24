@@ -452,8 +452,8 @@
             }
         }];
 
-        _ptp = [[BRPtouchPrinter alloc] initWithPrinterName:finalDeviceName interface:CONNECTION_TYPE_BLUETOOTH];
-//        [_ptp setupForBluetoothDeviceWithSerialNumber:serialNumber];
+        //_ptp = [[BRPtouchPrinter alloc] initWithPrinterName:finalDeviceName interface:CONNECTION_TYPE_BLUETOOTH];
+                [_ptp setupForBluetoothDeviceWithSerialNumber:serialNumber];
 
     } else if (isWifi == 1) {
         _ptp = [[BRPtouchPrinter alloc] initWithPrinterName:selectedDevice interface:CONNECTION_TYPE_WLAN];
